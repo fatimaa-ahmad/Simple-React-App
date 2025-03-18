@@ -128,3 +128,17 @@ body {
 .responsive-image:hover {
   transform: scale(1.1); /* Enlarges the image slightly on hover */
 }
+
+.homepage-image {
+  width: 100%; /* ensures the image is responsive and scales with the container */
+  max-width: 600px; /* limits how large the image can get, adjust as needed */
+  height: auto; /* maintains the aspect ratio of the image */
+  display: block; /* removes extra space below the image */
+  margin: 0 auto; /* centers the image horizontally */
+}
+
+@media (max-width: 768px) {
+  .homepage-image {
+    max-width: 100%; /* full width on smaller screens */
+  }
+}
