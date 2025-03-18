@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="container">
         <header className="header">
-          <h1>Flower & Chocolate Vending Machines</h1>
+          <h1>GoGift</h1>
           <nav className="nav">
             <NavLink 
               to="/" 
